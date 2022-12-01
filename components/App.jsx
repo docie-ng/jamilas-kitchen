@@ -1,28 +1,24 @@
 import React from 'react';
-import { Routes, Route, useRoutes, BrowserRouter as Router } from 'react-router-dom'
+import { Routes, Route, useRoutes, BrowserRouter as Router, Link } from 'react-router-dom'
 
 import Nav from './Nav'
-
-const App = () => {
-
-//   let routes = useRoutes([
-//     {path: '/', element: <Home/>},
-//     {path: '/menu', element: <Menu/>},  
-// ])
-//   return routes
-}
+import Menu from './Menu'
 
 
 function AppWrapper () {
   return (
     <>
+    <Nav/>
     <h1 className='heading'>Welcome to Jamila's Kitchen</h1>
     <Router>
-      <Nav />
-      <App />
+      <Routes>
+      <Route path="/menu" component={<Menu />}>Menu</Route>
+      </Routes>
     </Router>
     </>
   )
 }
+
+
 
 export default AppWrapper
