@@ -1,9 +1,8 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import css from '../server/public/main.css'
 import { createRoot } from 'react-dom/client'
-import { RouterProvider } from 'react-router-dom'
-//import { BrowserRouter as Router } from 'react-router-dom'
-
+import { Route, Routes } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import App from '../components/App'
 
 const container = document.getElementById('app')

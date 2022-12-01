@@ -2,9 +2,10 @@ const path = require('path')
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
+  mode: 'development',
   entry: './src/index.js',
   output: {
-    path: path.join(__dirname, './server/public'),
+    path: path.join(__dirname, '../server/public'),
     filename: 'bundle.js',
   },
 
@@ -25,6 +26,10 @@ module.exports = {
             presets: ['@babel/preset-env', '@babel/preset-react'],
           },
         },
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
