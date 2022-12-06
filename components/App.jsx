@@ -1,24 +1,25 @@
 import React from 'react';
-import { Routes, Route, useRoutes, BrowserRouter as Router, Link } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 import Nav from './Nav'
 import Menu from './Menu'
+import Home from './Home'
+import Contact from './Contact'
+import About from './About'
 
 
-function AppWrapper () {
+function App () {
   return (
     <>
     <Nav/>
-    <h1 className='heading'>Welcome to Jamila's Kitchen</h1>
-    <Router>
       <Routes>
-      <Route path="/menu" component={<Menu />}>Menu</Route>
+        <Route path='/' element={<Home/>}>Home</Route>
+        <Route path='/about' element={<About/>}>About</Route>
+        <Route path='/menu' element={<Menu/>}>Menu</Route>
+        <Route path='/contact' element={<Contact/>}>Contact</Route>
       </Routes>
-    </Router>
     </>
   )
 }
 
-
-
-export default AppWrapper
+export default App

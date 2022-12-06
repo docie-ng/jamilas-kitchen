@@ -2,7 +2,7 @@ import React from 'react'
 
 
 function Home () {
-<h1>Home</h1>
+return <h1 className='heading'>Welcome to Jamila's Kitchen</h1>
 
 }
 

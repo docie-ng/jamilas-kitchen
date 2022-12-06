@@ -1,24 +1,25 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-function Nav () {
+function Nav() {
 return (
   <>
   <div className='nav-title'>
-  <a href="/">Jamila's Kitchen</a>
+    <Link to='/'>Jamila's Kitchen</Link>
     <ul className='nav-content'>
       <li>
-        <a href="">About</a>
+        <Link to="/about">About</Link>
       </li>
       <li>
-        <a href="">Menu</a>
+        <Link to="/menu">Menu</Link>
       </li>
       <li>
-        <a href="">Contact</a>
+        <Link to="/contact">Contact</Link>
       </li>
     </ul>
     </div>
   </>
-)
+  )
 }
 
 export default Nav
