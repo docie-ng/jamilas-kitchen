@@ -29,3 +29,8 @@ a:-webkit-any-link{
   display: flex;
   gap: 3rem;
 }
+
+.home{
+  background: './images/kitchenstaff.png';
+  width: 60%;
+}
