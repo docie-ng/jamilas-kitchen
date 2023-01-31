@@ -1,13 +1,16 @@
 import React from 'react'
-import KitchenStaff from '../server/public/images/kitchenstaff.png'
+
+import Hummus from '../server/public/images/hummus.jpg'
+
 
 function Home () {
 return (
 <>
   <h1 className='heading'>Welcome to Jamila's Kitchen </h1>
-  <div className='home'>
-    <img src={KitchenStaff} alt='photo of kitchen staff' />
+  <div className='homeImage'>
+    <img src={Hummus} alt='photo of hummus' />
   </div>
+
 </>
 )
 }

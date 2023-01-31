@@ -1,11 +1,16 @@
+a:-webkit-any-link{
+  text-decoration: none;
+  color:black;
+}
+
+body{
+  background-color:rgb(249, 239, 216);
+}
+
 .heading{
   color: black;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
-}
-a:-webkit-any-link{
-  text-decoration: none;
-  color:black;
 }
 
 .nav-title{
@@ -30,7 +35,11 @@ a:-webkit-any-link{
   gap: 3rem;
 }
 
-.home{
-  background: './images/kitchenstaff.png';
-  width: 60%;
+.homeImage{
+  opacity: 0.8;
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  transform: scale(0.5);
 }
