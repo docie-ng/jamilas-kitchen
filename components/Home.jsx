@@ -7,9 +7,9 @@ function Home () {
 return (
 <>
   <h1 className='heading'>Welcome to Jamila's Kitchen </h1>
-  <div className='homeImage'>
-    <img src={Hummus} alt='photo of hummus' />
-  </div>
+    <div className='homeImage'>
+      <img src={Hummus} alt='photo of hummus' />
+    </div>
 
 </>
 )

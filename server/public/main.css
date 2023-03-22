@@ -11,6 +11,7 @@ body{
   color: black;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
+  font-size: 50px;
 }
 
 .nav-title{
@@ -37,9 +38,16 @@ body{
 
 .homeImage{
   opacity: 0.8;
-  display: block;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  transform: scale(0.5);
+}
+
+img {
+  width: 50%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
