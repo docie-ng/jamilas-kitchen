@@ -55,6 +55,7 @@ img {
 
 .row{
   display:flex;
+  padding:20%;
 }
 
 .column{
