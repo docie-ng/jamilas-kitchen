@@ -5,7 +5,7 @@ function About () {
 return (
 <>
 <div class='row'>
-  <div class='column'>hihihi</div>
+  <div class='column'></div>
   <div class='column-right'>
     <h3>
       Jamila's Kitchen is a Lebanese restaurant that specializes in hummus, tea, pita, and dolmas. 
@@ -22,7 +22,7 @@ return (
       The restaurant's warm and welcoming atmosphere, combined with the delicious food and traditional Lebanese hospitality, has made it a beloved destination for locals and tourists alike.
       <br></br>
       <br></br>
-      <img className='homeImage' src={Cooking} alt='women cooking'></img>
+      <img className='aboutImage' src={Cooking} alt='women cooking'></img>
       <br></br>
       <br></br>
       At Jamila's Kitchen, the menu is centered around the family's favorite dishes, including the famous hummus, which is made fresh daily using a secret family recipe. 
