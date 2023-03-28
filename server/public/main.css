@@ -68,3 +68,10 @@ img {
   margin-left:auto;
   margin-right:auto;
 }
+
+footer{
+  background-color: bisque;
+  color:black;
+  padding: 50px;
+  margin-top: 20px;
+}
