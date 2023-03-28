@@ -6,6 +6,7 @@ import Menu from './Menu'
 import Home from './Home'
 import Contact from './Contact'
 import About from './About'
+import Footer from './Footer'
 
 
 function App () {
@@ -18,6 +19,7 @@ function App () {
         <Route path='/menu' element={<Menu/>}>Menu</Route>
         <Route path='/contact' element={<Contact/>}>Contact</Route>
       </Routes>
+      <Footer/>
     </>
   )
 }
