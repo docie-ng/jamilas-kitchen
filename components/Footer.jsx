@@ -1,14 +1,19 @@
 import React from 'react'
-
+import Flag from '.././server/public/images/lebaneseFlag.png'
 
 function Footer () {
 return (
 <footer>
-  <p>Tues - Sun</p>
-  <p>2pm - late</p>
-  <p>123 Field Street</p>
-  <p>Kingsland, Auckland</p>
-  <p>Book a table!</p>
+  <div className='flag'>
+    <img src={Flag} alt='Lebanon flag'></img>
+  </div>
+  <ul className='ul'>
+    <li>Tues - Sun</li> 
+    <li>2pm - late</li>
+    <li>123 Field Street</li>
+    <li>Kingsland, Auckland</li>
+  Book a table at hello@jamilaskitchen.co.nz
+  </ul>
 </footer>
 )
 
